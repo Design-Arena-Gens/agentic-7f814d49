@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900;
+    font-family: var(--font-cairo), system-ui, sans-serif;
+  }
+
+  ::selection {
+    @apply bg-sky-500 text-white;
+  }
+}
